@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+		<meta name="description" content="Ejemplo de HTML5"/>
+		<meta name="keywords" content="HTML5, CSS3"/>
+        <meta name="author" content="">
+		<title>ejercicio_04</title>
+		<link rel="stylesheet" href="css/ejercicio4.css"/>
+	</head>
+	<body lang="es">
+        
+		<header> <!-- Encabezado-->   
+		</header>
+        
+		<main><!-- Unico en el documento. Contenido principal-->
+            <section>
+                <h1>FICHA DE INSCRIPCIÓN</h1>
+                <form name="formulario" id="formulario" method="get" action="https://inforjardin.000webhostapp.com/">
+                    <fieldset> <!--Datos Identificativos-->
+                        <legend> Datos Identificativos</legend>
+                        
+                        <label for="codigo">Código de suscripción: </label>
+                        <input type="text" name="codigo" id="codigo" value="INS-00123" size="10" readonly>
+                        
+                        <label for="nsocio">Nº Socio: </label>
+                        <input type = "text" name = "nsocio" id = "nsocio" placeholder="123" size="10" disabled>
+                        
+                        <label for="usuario">Usuario: </label>
+                        <input type = "text" name = "usuario" id = "usuario" maxlength="10" required>
+                        
+                        <label for="contrasenia">Contraseña: </label>
+                        <input type = "password" name = "contrasenia" id = "contrasenia" maxlength="10" required>
+                        
+                        <label for="contrasenia2">Repite Contraseña: </label>
+                        <input type = "password" name = "contrasenia2" id = "contrasenia2" maxlength="10" required>
+                        
+                        <label for="nombre">Nombre Completo: </label>
+                        <input type = "text" name = "nombre" id = "nombre" size="30" maxlength="30" autofocus>
+                        
+                        <label for="dni">DNI: </label>
+                        <input type = "text" name = "dni" id = "dni" size="10" maxlength="8" pattern="[0-9]{8}" oninvalid="this.setCustomValidity('Parámetro inválido')" oninput="this.setCustomValidity('')">
+                        
+                        <label for="letra">Letra: </label>
+                        <input type = "text" name = "letra" id = "letra" size="2" maxlength="1" pattern="[A-Z]{1}" oninvalid="this.setCustomValidity('Parámetro inválido')" oninput="this.setCustomValidity('')">
+                        
+                        <label for="direccion">Dirección: </label>
+                        <input type = "text" name = "direccion" id = "direccion" size="30" maxlength="30">
+                        
+                        <label for="ciudad">Ciudad: </label>
+                        <input type = "text" name = "ciudad" id = "ciudad" size="15" maxlength="15">
+                        
+                        <label for="cp">Código Postal: </label>
+                        <input type = "text" name = "cp" id = "cp" size="5" maxlength="5" pattern="[0-9]{5}" oninvalid="this.setCustomValidity('Parámetro inválido')" oninput="this.setCustomValidity('')">
+                        
+                        <label for="pais">País: </label>
+                        <input type = "text" name = "pais" id = "pais" size="7" value="Francia" disabled>
+                    </fieldset>
+                    
+                    <fieldset> <!--Datos Bancarios-->
+                        <legend>Datos Bancarios</legend>
+                        
+                        <input type="radio" value="visa" name="banca">Visa
+                        <input type="radio" value="mastercard" name="banca" checked>MasterCard
+                        
+                        <input type="radio" value="americanexpress" name="banca">Amercian Express
+                    </fieldset>
+                    
+                    <fieldset> <!--Aficiones-->
+                        <legend>Aficiones</legend>
+                        
+                        <input type="checkbox" name="aficiones" value="leer" checked>Leer
+                        
+                        <input type="checkbox" name="aficiones" value="viajar" checked>Viajar
+                        
+                        <input type="checkbox" name="aficiones" value="musica" checked>Escuchar Música
+                        
+                        <input type="checkbox" name="aficiones" value="deporte">Deportes
+                        
+                        <input type="checkbox" name="aficiones" value="montania">Montaña
+                        
+                        <input type="checkbox" name="aficiones" value="juegos" checked>Juegos de Estrategia
+                        
+                        <details>
+                            <summary>Más opciones</summary>
+                            <input type="checkbox" name="aficiones" value="informatica">Informática
+                            <input type="checkbox" name="aficiones" value="jogging">Jogging
+                            <input type="checkbox" name="aficiones" value="cine">Cine
+                        </details>
+
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Enviar Información</legend> <!--Enviar Informacion-->
+                        
+                        <details>
+                            <summary>Más Opciones</summary>
+                            <label>Adjuntar resguardo de pago (PDF): </label>
+                            <input type="file" name="archivo">
+                        </details>
+                        
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpiar">
+                        
+                    </fieldset>
+                    
+                </form>
+            </section>
+        </main>
+		
+		<footer> <!--Pie de pagina-->
+		</footer>
+	</body>
+</html>

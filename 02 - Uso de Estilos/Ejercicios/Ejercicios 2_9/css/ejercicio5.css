@@ -1,0 +1,27 @@
+h1 {
+    color: teal;
+}
+
+strong, a {
+    color: red;
+}
+
+.destacado {
+    color: orange;
+}
+
+h2, a em {
+    color: blue;
+}
+
+.adicional {
+    color: olive;
+}
+
+.adicional span, .adicional a {
+    color:  green;
+}
+
+.adicional .especial {
+    color: purple;
+}

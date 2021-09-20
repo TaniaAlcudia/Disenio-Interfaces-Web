@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Niconne;
+    src: url(../fonts/Niconne-Regular.ttf);
+}
+
+body {
+    display: flex;
+}
+
+.recuadro1,.recuadro2
+{
+    color: red;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+}
+.recuadro1 {
+    font-family: Niconne;
+}
+
+.recuadro2 {
+    font-family: 'Barrio', cursive;
+}

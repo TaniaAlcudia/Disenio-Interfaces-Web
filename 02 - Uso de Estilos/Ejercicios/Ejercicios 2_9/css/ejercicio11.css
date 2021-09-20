@@ -1,0 +1,30 @@
+p em {
+    font-style: oblique;
+}
+
+.especial {
+    font-size: 1.5em;
+    line-height : 2em;
+    background-color: lightgray;
+    font-family: Verdana, Arial, sans-serif;
+    text-indent: 60px;
+    text-align: justify;
+}
+
+.especial em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.especial strong {
+    font-weight: normal;
+    font-style: oblique;
+    background-color: #FF6;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 3px;
+}
+
+.especial::first-line {
+    color: blue;
+}

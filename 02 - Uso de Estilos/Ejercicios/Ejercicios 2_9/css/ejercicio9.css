@@ -1,0 +1,22 @@
+.recuadro1, .recuadro2, .recuadro3 {
+    column-count: 3;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.recuadro1 {
+    column-rule-style: solid;
+    column-rule-color: red;
+}
+
+.recuadro2 {
+    column-rule-style: dotted;
+    column-rule-color: red;
+}
+
+.recuadro3 {
+    column-rule-style: dashed;
+    column-rule-color: blue;
+}

@@ -1,0 +1,29 @@
+div {
+    margin: 10px;
+}
+
+.recuadro1 {
+    color: rgb(255, 0, 0, 0.3);
+}
+
+.recuadro2 {
+    color: rgb(255, 0, 0, 0.5);
+}
+
+.recuadro3 {
+    color: rgb(255, 0, 0, 0.8);
+}
+
+.recuadro4 {
+    color: rgb(255, 0, 0);
+    background-color: rgb(72, 209, 204);
+    padding: 1px 10px 1px 10px;
+    border-radius: 15px;
+}
+
+.recuadro5 {
+    color: rgb(255, 0, 0, 0.3);
+    background-color: rgb(72, 209, 204, 0.3);
+    padding: 1px 10px 1px 10px;
+    border-radius: 15px;
+}
