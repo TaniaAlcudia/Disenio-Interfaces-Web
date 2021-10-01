@@ -27,4 +27,11 @@ p em {
 
 .especial::first-line {
     color: blue;
+    background-color: lightblue;
+    font-variant: small-caps;
+}
+
+.especial::first-letter {
+    font-size: 2em;
+    font-family: serif;
 }
