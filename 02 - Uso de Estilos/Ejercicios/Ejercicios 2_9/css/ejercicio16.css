@@ -1,0 +1,45 @@
+div {
+    background-color: lightgrey;
+}
+.bordes {
+    border-top-style: groove;
+    border-top-color: blue;
+    border-top-width: 20px;
+
+    border-left-style: double;
+    border-left-color: lime;
+    border-left-width: 10px;
+
+    border-bottom-style: dashed;
+    border-bottom-color: red;
+    border-bottom-width: 3px;
+
+    border-right-style: solid;
+    border-right-color: magenta;
+    border-right-width: 10px;
+
+    background-color: lightcyan;
+}
+
+.bordes2 {
+    border-style: groove solid dashed double;
+    border-color: blue magenta red lime;
+    border-width: 20px 10px 3px;;
+
+    background-color: sandybrown;
+}
+
+.bordes3 {
+    border-top: 20px groove blue;
+    border-right: 10px solid magenta;
+    border-bottom: 3px dashed red;
+    border-left: 10px double lime;
+
+    background-color: pink;
+}
+
+.bordes4 {
+    border: 6px dotted blue;
+    background-color: yellow;
+}
+

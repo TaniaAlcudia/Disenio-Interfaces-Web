@@ -1,0 +1,46 @@
+p {
+    width: 450px;
+    height: 120px;
+    padding: 20px;
+}
+
+p span {
+    font-weight: bold;
+}
+
+.primero {
+    font-size: 1em;
+    border: 4px solid red;
+    border-right: hidden;
+    margin-left: 30px;
+    background-color: blue;
+}
+
+.segundo {
+    font-size: 1.2em;
+    border: 8px double green;
+    margin-top: 40px;
+    background-color: red;
+}
+
+.tercero {
+    font-size: .8em;
+    border: 12px dotted blue;
+    border-bottom-width: 6px;
+    border-bottom-color: red;
+    margin-left: 60px;
+    background-color: green;
+}
+
+.primero span {
+    color: red;
+}
+
+.segundo span {
+    color: blue;
+}
+
+.tercero span {
+    color: white;
+}
+

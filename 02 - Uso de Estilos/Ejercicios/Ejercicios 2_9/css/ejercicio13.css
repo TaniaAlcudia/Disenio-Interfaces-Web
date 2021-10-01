@@ -49,25 +49,25 @@ div span {
 }
 
 .bottom {
-
+    vertical-align: bottom;
 }
 
 .text-bottom {
-
+    vertical-align: text-bottom;
 }
 
 .medida2em {
-
+    vertical-align: 2em;
 }
 
 .medida-2em {
-
+    vertical-align: -2em;
 }
 
 .porcentaje10 {
-
+    vertical-align: 10%;
 }
 
 .porcentaje80 {
-    
+    vertical-align: 80%;    
 }

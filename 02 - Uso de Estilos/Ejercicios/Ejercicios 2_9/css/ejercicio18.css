@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    text-shadow: -7px -7px 0px grey, 7px 7px 0px lightgrey;
+}
+
+.caja1 {
+    border: silver 27px solid;
+    border-image-source: url("../imagenes/bordes.png");
+    border-image-slice: 27;
+  
+    padding: 10px;
+    text-align: justify;
+
+    background-color: lightgrey;
+}
