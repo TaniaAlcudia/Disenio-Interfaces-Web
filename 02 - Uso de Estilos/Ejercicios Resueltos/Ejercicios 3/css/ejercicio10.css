@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Barrio";
+    src: url("../fuentes/Barrio-Regular.ttf");
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.recuadro1{
+    background-color:#ddd;
+    border-radius: 20px;  
+    color:#ff0000;
+    font-family:Niconne;
+    font-size:30px;
+    margin: 50px;
+    padding:10px;
+    width:400px;
+}
+
+.recuadro2{
+    background-color:#ddd;
+    border-radius: 20px;  
+    color:#ff0000;
+    font-family:Barrio;
+    font-size:30px;
+    margin: 50px;
+    padding:10px;
+    width:400px;
+}

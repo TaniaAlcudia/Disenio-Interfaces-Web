@@ -1,0 +1,17 @@
+h1 span{
+	color:blue;
+}
+p span {
+	color: green;
+}
+p em{
+	color:green;
+	font-size: 1.1em;
+    text-decoration:underline;
+}
+p strong span{
+	color:red;
+}
+p em span{
+	color:yellow;
+}

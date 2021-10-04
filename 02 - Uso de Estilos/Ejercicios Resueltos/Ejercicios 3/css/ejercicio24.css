@@ -1,0 +1,20 @@
+div {
+	border:5px inset red;
+    height:155px;
+	margin: 20px;
+    padding: 20px;
+    width:135px;
+}
+.caja1 {
+	background:#23F url("../imagenes/reloj.png") no-repeat bottom left;
+}
+.caja2 {	
+	background:#F30 url("../imagenes/reloj.png") no-repeat right top;
+}
+.caja3 {	
+	background:#3F0 url("../imagenes/reloj.png") no-repeat 50% 50%;
+}
+body{
+    display:flex;
+    justify-content: center;
+}

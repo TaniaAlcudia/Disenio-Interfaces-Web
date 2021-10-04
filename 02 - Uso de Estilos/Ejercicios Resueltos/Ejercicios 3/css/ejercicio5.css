@@ -1,0 +1,34 @@
+h1{
+	color:teal;
+}
+.destacado{
+	color:orange;
+}
+h2{
+	color:#00F;
+}
+
+.adicional p{
+	color:olive;
+}
+.adicional span{
+	color: green;
+}
+.adicional span.especial{
+	color:purple;
+}
+
+strong{
+	color:red;
+}
+.adicional a{
+	color:green;
+	text-decoration:underline;
+}
+a{
+	color:red;
+	text-decoration:underline;
+}
+a em{
+	color:blue;
+}

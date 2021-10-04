@@ -1,0 +1,35 @@
+em{
+	font-style:italic;
+}
+strong{
+	font-weight:bold;
+}
+.especial {
+    background-color: lightgrey;
+	font: 1.5em/2em Verdana, Arial, sans-serif;
+    text-align:justify;
+	text-indent:60px;
+}
+.especial em{
+	font-style:normal;
+	font-weight:bold;
+}
+.especial strong{
+	background-color:#ff6;
+    border-bottom:1px solid black;
+	border-top:1px solid black;
+    font-style:italic;
+	font-weight:normal;
+	padding:3px;
+}
+.especial:first-line{
+	background-color:lightblue;
+    color:blue;
+	font-variant:small-caps;
+}
+.especial:first-letter{
+	color:blue;
+	font-family:serif;
+    font-size: 2em;
+}
+	

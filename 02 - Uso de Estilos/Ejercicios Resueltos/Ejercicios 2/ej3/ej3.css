@@ -1,0 +1,35 @@
+body {
+    color: grey;
+}
+
+.verdes {
+    color: green;
+}
+.azules {
+    color: blue;
+}
+.el4 {
+    font-style: oblique;   
+}
+.el5 {
+    background-color: aqua;
+}
+.segundo {
+    text-shadow: 2px 2px grey;
+}
+li[class~="azules"] {
+    text-decoration: overline;
+}
+.rojo {
+    color:red;
+}
+
+li:first-child {
+    text-align: right
+}
+il.verdes::before{
+    content:"Estoy antes de los de color verde"
+}
+il.verdes::after{
+    content: "Estoy tras los de color verde"
+}

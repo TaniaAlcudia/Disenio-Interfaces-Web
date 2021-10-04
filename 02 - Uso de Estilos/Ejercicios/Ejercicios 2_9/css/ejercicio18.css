@@ -3,13 +3,25 @@ h1 {
     text-shadow: -7px -7px 0px grey, 7px 7px 0px lightgrey;
 }
 
-.caja1 {
-    border: silver 27px solid;
-    border-image-source: url("../imagenes/bordes.png");
-    border-image-slice: 27;
-  
-    padding: 10px;
-    text-align: justify;
-
+div {
+    border: 20px solid black;
+    padding: 20px;
+    margin: 10px;
     background-color: lightgrey;
+}
+
+div::first-letter {
+    font-size: 3em;
+}
+
+.caja1 {
+    border-image:url(../imagenes/bordes.png) 20 stretch;
+}
+
+.caja2 {
+    border-image:url(../imagenes/bordes.png) 20 round;
+}
+
+.caja3 {
+    border-image:url(../imagenes/bordes.png) 20 repeat;
 }

@@ -1,0 +1,21 @@
+strong{
+	color:blue;
+}
+h1,h2,h3{
+	color:grey;
+}
+h4{
+	color:black;
+}
+span{
+	color: green;
+}
+em{
+	color:yellow;
+}
+body p:nth-of-type(4){
+	color:blue;
+}
+p{
+	color:red;
+}

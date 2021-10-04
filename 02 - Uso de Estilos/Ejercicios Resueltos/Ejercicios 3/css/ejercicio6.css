@@ -1,0 +1,28 @@
+.recuadro1 {
+    border-radius:15px;
+    color:rgba(255,0,0, 0.3);
+}
+.recuadro2 {
+    border-radius:15px;
+    color:rgba(255,0,0, 0.6);
+}
+.recuadro3 {
+    border-radius:15px;
+    color:rgba(255,0,0, 0.9);
+}
+.recuadro4 {
+    background-color:rgba(102,204,204,1);
+    border-radius:15px;
+    color:rgba(255,0,0, 1);
+}
+.recuadro5 {
+    background-color:rgba(102,204,204,.2);
+    border-radius:15px;
+    color:rgba(255,0,0, .2);
+}
+body{
+    font-size:24px;
+}
+p{
+    padding:10px;
+}

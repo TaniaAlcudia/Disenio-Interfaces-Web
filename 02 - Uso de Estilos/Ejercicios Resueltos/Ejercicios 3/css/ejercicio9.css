@@ -1,0 +1,16 @@
+.recuadro1{
+  column-rule: 1px solid #f00;
+}
+.recuadro2{
+  column-rule: 3px dotted #f00;
+}
+.recuadro3{ 
+  column-rule: 2px dashed #00f;    
+}
+div{
+  background-color:#ddd;
+  border-radius: 20px;  
+  column-count:3;
+  margin:10px auto;
+  padding:10px;
+}

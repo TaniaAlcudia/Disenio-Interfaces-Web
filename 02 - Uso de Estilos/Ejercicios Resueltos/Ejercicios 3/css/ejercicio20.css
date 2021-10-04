@@ -1,0 +1,21 @@
+.recuadro1{
+    background-color:#ddd;
+    border-bottom-right-radius: 20px;  
+    border-top-left-radius: 20px;  
+    margin: 50px;
+    padding:10px;
+    width:200px;
+}
+
+.recuadro2{
+    background-color:#aa0;
+    border-top-right-radius: 40px;  
+    margin: 50px;
+    padding:10px;
+    width:200px;
+}
+
+.contenedor {
+    display:flex;
+    justify-content:center;
+}

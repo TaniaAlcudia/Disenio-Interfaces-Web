@@ -1,0 +1,15 @@
+body{
+    font-size: 40px;
+}
+p{
+	color:red;
+}
+strong{
+	color:blue;
+}
+em, del{
+	color: yellow;
+}
+span{
+	color: green;
+}

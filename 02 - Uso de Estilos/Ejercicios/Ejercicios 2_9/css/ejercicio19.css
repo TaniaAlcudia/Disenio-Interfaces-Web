@@ -1,0 +1,20 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.recuadro1 {
+    width:200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: lightgrey;
+}
+
+.recuadro2 {
+    width:200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px 40px 40px 20px; 
+    background-color: olive;
+}

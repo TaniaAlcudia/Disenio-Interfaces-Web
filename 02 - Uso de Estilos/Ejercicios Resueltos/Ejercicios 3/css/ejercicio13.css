@@ -1,0 +1,33 @@
+body{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+div {
+	background-color: blue;
+    border: 1px solid black;
+    height: 60px;
+    margin: 10px;
+    padding: 30px;
+	width: 170px;
+}
+img{
+   border: 3px dashed #fff;
+}
+span {
+    background-color: #2ff;
+    color: black;
+	padding:1px;
+}
+.baseline {	vertical-align:baseline;}
+.sub { vertical-align:sub;}
+.super {vertical-align:super;}
+.top {vertical-align:top;}
+.text-top {vertical-align:text-top;}
+.middle {vertical-align:middle;}
+.bottom { vertical-align:bottom;}
+.text-bottom {vertical-align:text-bottom;}
+.medida2em {vertical-align:2em;}
+.medida-2em { vertical-align:-2em;}
+.porcentaje10 {vertical-align:10%;}
+.porcentaje80 {vertical-align:80%;}

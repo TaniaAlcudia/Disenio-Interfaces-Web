@@ -1,0 +1,10 @@
+.cuadro1{
+	background: url("../imagenes/logo1.png") top left no-repeat,
+                url("../imagenes/logo1.png") top right no-repeat,
+				url("../imagenes/logo1.png") bottom left no-repeat,
+				url("../imagenes/madera1.png") bottom right no-repeat;
+	background-color: lightsalmon;
+    height:500px;
+	margin: 0 auto;
+	width: 600px;
+}

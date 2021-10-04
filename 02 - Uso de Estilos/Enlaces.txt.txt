@@ -1,0 +1,5 @@
+Calculador de especifidad - https://specificity.keegan.st/
+Expresion calc() - https://developer.mozilla.org/es/docs/Web/CSS/calc()
+Color Converter - https://www.w3schools.com/colors/colors_converter.asp
+Color Converter RGBA - http://hex2rgba.devoth.com/
+Propiedades Flexbox - https://the-echoplex.net/flexyboxes/

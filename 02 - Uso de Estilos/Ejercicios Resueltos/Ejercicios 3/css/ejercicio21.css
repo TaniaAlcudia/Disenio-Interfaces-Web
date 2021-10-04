@@ -1,0 +1,22 @@
+.recuadro1{
+    background-color:#ddd;
+    border-radius: 20px;  
+    box-shadow: 10px 10px 20px #aaa; 
+    margin:50px;
+    padding:10px;
+    width:200px;
+}
+
+.recuadro2{
+    background-color:#aa0;
+    border-radius: 20px;  
+    box-shadow: -10px -10px 20px #aaa; 
+    margin:50px;
+    padding:10px;
+    width:200px;
+}
+
+.contenedor{
+    display:flex;
+    justify-content:center;
+}
