@@ -51,3 +51,128 @@ section article img {
 /* ================================================================
 Añade tus estilos aqui
 ================================================================== */
+
+/* PARTE 1 */
+
+header {
+    padding: 1em;
+}
+
+nav {
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+footer {
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+.noticias, .publicidad, article {
+    padding: 0.5em;
+}
+
+article, .noticias {
+    margin-bottom: 1em;
+}
+
+img {
+    margin: 0.5em;
+}
+
+.publicidad p {
+    margin-top: 1em;
+}
+
+label {
+    margin-right: 1em;
+}
+
+/* PARTE 2 */
+
+header, nav, aside, footer, section, .contenedor {
+    border: none;
+}
+
+nav {
+    border-bottom: 1px #004C99 solid;
+}
+
+.noticias {
+    border: 1px #C5C5C5 solid ;
+}
+
+.publicidad {
+    border: 1px #CC6600 dashed;
+}
+
+.lateral2 {
+    border: 1px #CC6600 solid;
+}
+
+footer {
+    border-bottom:1px #C5C5C5 solid;
+    border-top:1px #C5C5C5 solid;
+}
+
+/* PARTE 3 */
+
+.noticias, footer {
+    background-color: #CCCCCC;
+}
+
+.publicidad {
+    background-color: #FFFF33;
+}
+
+.lateral2 h2 {
+    background-color: #DB905C;
+    padding: 0.2em;    
+}
+
+nav {
+    background-color: darkblue;
+}
+
+header h1 {
+    background-image: url("../imagenes/logo.gif");
+    background-position:-10px -10px;
+    background-repeat:no-repeat;
+    line-height: 1.2em;
+}
+
+header h1 span {
+    visibility:hidden;
+}
+
+/* PARTE 4 */
+
+body {
+    color: black;
+    font: 0.9em/1.4em Arial;
+}
+
+section article h2 {
+    color: #CC6600;
+    font: 1.6em/1.2em;
+    margin-bottom: 0.3em;
+}
+
+
+
+/* 
+2.	Los elementos h2 de los artículos del elemento section se muestran en color #CC6600, con un tamaño de letra de 1.6em, un interlineado de 1.2em y un margen inferior de 0.3em.
+3.	Los elementos del menu (los elementos li) deben mostrar un margen a su derecha de 1em y sus enlaces deben ser de color blanco y tamaño de letra 1.3em.
+4.	El tamaño del texto de todos los contenidos de .lateral1 debe ser de 0.9em. 
+5.	La fecha de cada noticia debe ocupar el espacio de toda su línea y mostrarse en color gris claro #999 y estar alineada a la derecha.
+6.	El elemento h2 de .noticias debe mostrarse de color #003366.
+7.	El texto del elemento .publicidad es de color gris oscuro #555 y todos los enlaces de color #CC6600.
+8.	Los enlaces contenidos dentro de los artículos del elemento section son de color #CC6600 y todos los párrafos muestran un margen superior e inferior de 0.3em.
+9.	Los elementos h2 de .lateral2 son de color blanco #FFF y tamaño de letra 1em.
+10.	El texto del footer es de color #555 y tamaño de letra de 0.75em.
+11.	Los párrafos de los artículos del elemento section tienen, una tabulación de 2em, están justificados y un interlineado de 1.8em.
+12.	La 1ª letra de los párrafos tiene un tamaño 2em y tipo de letra Times New Roman.
+13.	Los h2 de los artículos del elemento section tienen un espaciado entre palabras de .3em.
+14.	Los enlaces de los elementos del menú tienen un espacio entre sus letras de 0.3em. 
+*/
+

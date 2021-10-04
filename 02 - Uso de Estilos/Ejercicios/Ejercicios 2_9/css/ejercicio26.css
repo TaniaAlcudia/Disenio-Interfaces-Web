@@ -1,0 +1,9 @@
+.cuadro1 {
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    background:
+		url("../imagenes/logo1.png") 0% 0% / 70px 70px  no-repeat,
+		url("../imagenes/logo1.png") 50% / 200px 200px  no-repeat,
+		url("../imagenes/madera1.png") 50% / 600px 400px  no-repeat;
+}
