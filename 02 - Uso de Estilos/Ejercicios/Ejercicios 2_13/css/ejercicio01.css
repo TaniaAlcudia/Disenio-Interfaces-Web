@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+
+#special {
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: red;
+    background-color: transparent;
+}
+
+.box {
+    color: white;
+    font-weight: bold;
+    border: black thick solid;
+    margin: 10px;
+}
+
+p {
+    background-color: red;
+}
+
+div {
+    background-color: green;
+    margin-bottom: 12px;
+}
+
+p, div {
+    width: 25%;
+    height: 75px;
+}
+
+span {
+    background-color: blue;
+    margin-right: 30px;
+}

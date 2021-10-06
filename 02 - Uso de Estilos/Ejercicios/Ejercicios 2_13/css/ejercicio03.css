@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+.special {
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: red;
+    background-color: transparent;
+}
+
+.box {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;;
+    border: black thick solid;
+    padding: 20px;
+    position: relative;
+}
+
+#caja1 {
+    background-color: red;
+}
+
+#caja2 {
+    background-color: blue;
+    top: 60px;
+    right: 100px;
+}
+
+#caja3 {
+    background-color: green;
+}
+
+#caja4 {
+    background-color: yellow;
+    top: 60px;
+    right: 100px;
+}
