@@ -1,0 +1,38 @@
+span {
+    font-weight: bold;
+}
+
+.contenedor-verde, .contenedor-azul, .contenedor-rosa {
+    background-color: lightgrey;
+}
+
+.contenedor-verde {
+    text-align: center;
+}
+
+.contenedor-verde div{
+    background-color: lightgreen;
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.contenedor-azul div {
+    background-color: lightblue;
+    display: inline;
+}
+
+.contenedor-rosa {
+    text-align: center;
+}
+
+.contenedor-rosa div {
+    background-color: palevioletred;
+    color: white;
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+    margin-right: 40px;
+    padding: 5px;
+}
