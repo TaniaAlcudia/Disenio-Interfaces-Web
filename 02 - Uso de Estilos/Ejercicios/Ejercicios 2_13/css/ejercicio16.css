@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+
+h1 {
+    text-align: center;
+}
+
+main{
+    display:table;
+    table-layout: fixed;
+    margin: auto;
+    width:700px;
+}
+
+img {
+    width:530px;
+}
+
+main > div:nth-of-type(1) {
+    display: table-row;
+    text-align: center;
+}
+
+main > div:nth-of-type(2) {
+    display: table-caption;
+    caption-side: bottom;
+    text-align: center;
+    font-style: italic;
+}
+
+main > div > div {
+    display: table-cell;
+    border: 1px grey solid;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+main > div > div:nth-of-type(1) {
+    width: 120px;
+}
+

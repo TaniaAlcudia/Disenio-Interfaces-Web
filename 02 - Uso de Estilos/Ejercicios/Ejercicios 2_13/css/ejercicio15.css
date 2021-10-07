@@ -1,0 +1,75 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:2px solid lightblue;
+    overflow:hidden;
+}
+
+header {
+    display:flex;
+    background-color: black;
+    justify-content:flex-end;
+    padding-top: 80px;
+}
+
+h1 {
+    text-align:center;
+    font-size: 2em;
+    margin: 5px;
+}
+
+div {
+    display:flex;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: justify;
+    font-size: .8em;
+    position: relative;
+    flex-basis: 33%;
+}
+
+article img {
+    order:1;
+    width: 280px;;
+}
+
+article h2 {
+    order:2;
+}
+
+article p {
+    margin: -10px;
+    padding-bottom: 70px;
+    order:3;
+}
+
+article button {
+    order:4;
+    width:150px;
+    justify-content: center;
+    padding: 10px 20px;
+    bottom:20px;
+    position: absolute;
+}
+
+.malta {
+    background-color:lightblue;
+}
+
+.polonia {
+    background-color:lightgreen;
+}
+
+.oporto {
+    background-color:lightseagreen;
+}
+
+
+
+
+
+

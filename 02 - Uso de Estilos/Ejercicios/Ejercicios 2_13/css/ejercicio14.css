@@ -1,0 +1,19 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+    background-color: rgb(16, 62, 199);
+    justify-content: flex-end;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,30 @@
+body > div {
+    display: table;
+    table-layout: fixed;
+    width: 90%;
+    height: 400px;
+    border: 15px solid maroon;
+    margin: auto;
+}
+
+body > div > div {
+    display: table-row;
+}
+
+div p {
+    display: table-cell;
+    color: white;
+    background-color: chocolate;
+    border: 3px solid maroon;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+

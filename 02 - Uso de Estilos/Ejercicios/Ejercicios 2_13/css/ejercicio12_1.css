@@ -1,0 +1,31 @@
+.flex-container {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: grey;
+    padding: 40px;
+    color: white;
+    font-size: 1.2em;
+    margin: 10px;
+    text-align: center; 
+}
+
+#caja1 {
+    order: 3;
+}
+
+#caja2 {
+    order: 1;  
+}
+
+#caja3 {
+    order: 4;   
+}
+
+#caja4 {
+    order: 2;
+    flex-basis: 200px;  
+}

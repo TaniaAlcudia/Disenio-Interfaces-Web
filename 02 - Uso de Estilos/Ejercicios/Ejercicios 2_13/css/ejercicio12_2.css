@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 230px;
+    height: 400px;
+    margin: auto;
+}
+
+.box {
+    background-color: grey;
+    padding: 40px;
+    color: white;
+    font-size: 1.2em;
+    margin: 5px;
+    text-align: center; 
+}
+
+#caja4 {
+    flex-basis: 80px; 
+}

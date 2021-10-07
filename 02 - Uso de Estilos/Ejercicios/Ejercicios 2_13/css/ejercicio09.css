@@ -1,0 +1,37 @@
+body {
+    background-image: url("../imagenes/paper.gif");
+}
+
+h1 {
+    color: grey;
+    text-align: center;
+}
+
+.contenedor {
+    margin: 50px auto;
+    background-color: lightcyan;
+    border: 10px lightgray groove;
+    width: 755px;
+}
+
+img {
+    border: 3px white solid;
+}
+
+.contenedor div {
+    width: 215px;
+    height: 180px;
+    background-color: lightblue;
+    border-bottom: 3px grey solid;
+    border-right: 3px grey solid;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+
+p {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: .7em;
+    text-align: center;
+}
