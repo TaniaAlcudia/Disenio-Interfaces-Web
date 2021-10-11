@@ -1,0 +1,35 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 5px;
+    grid-template-areas:
+    "uno uno uno uno uno"
+    "dos dos . tres tres"
+    "dos dos cuatro cuatro cuatro";
+}
+
+.grid-container div {
+    border: 5px black solid;
+    text-align: center;
+}
+
+.azul {
+    grid-area: uno;
+    background-color: blue;
+}
+
+.rojo {
+    grid-area: dos;
+    background-color: red;
+}
+
+.verde {
+    grid-area: tres;
+    background-color: green;
+}
+
+.amarillo {
+    grid-area: cuatro;
+    background-color: yellow;
+}

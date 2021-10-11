@@ -1,0 +1,42 @@
+body {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 120px 90px 330px 90px;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "aside section"
+    "footer footer";
+}
+
+header {
+    grid-area: header;
+    background-color: #8a2be2;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #6495ed;
+}
+
+aside {
+    grid-area: aside;
+    background-color: #8a008b;
+}
+
+section {
+    grid-area: section;
+    background-color: #4a0182;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #9932cc;
+}
+

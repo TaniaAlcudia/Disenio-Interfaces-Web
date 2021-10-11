@@ -1,0 +1,18 @@
+
+.grid-container
+{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 10px;
+    height: 50vh;
+}
+
+.grid-container div
+{
+    background-color: purple;    
+    color:white;
+    font-size:72px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 15px;
+}
