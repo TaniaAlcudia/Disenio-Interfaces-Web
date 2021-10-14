@@ -1,0 +1,32 @@
+.flex-container {
+    display:flex;
+    justify-content: flex-start;
+}
+
+ul {
+    border: 1px black solid;
+    margin: 10px;
+    padding: 10px;
+    width: 130px;
+}
+
+li {
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.reloj {
+    list-style-image:url(../imagenes/clock.png);
+    list-style-type:square;
+}
+
+.mail {
+    list-style-image:url(../imagenes/email.png);
+    list-style-type:square;
+}
+.smiley {
+    list-style-image:url(../imagenes/smiley_big_grin.png);
+    list-style-type:circle;
+}

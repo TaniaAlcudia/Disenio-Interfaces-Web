@@ -1,0 +1,37 @@
+.menu {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    font-family: Helvetica, Verdana, Arial;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 2.2em;
+}
+
+.menu li {
+    border-top: 1px #4D0000 solid;
+    border-bottom: 1px #761A1A solid;
+}
+
+.menu li a {
+    display: block;
+    background-color: #660000;
+    color: #FFF;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.menu li a:hover {
+    background-image: url(../imagenes/vert-one_arrow.gif);
+    background-repeat: no-repeat;
+    /* background-position: left; */
+    background-color: #900;
+}
+
+/* •	Cuando se pasa el ratón por encima de cada elemento del menú:
+o	Se debe mostrar la imagen (vert-one_arrow.gif) como fondo. Aparecerá a la izquierda separada del margen 0.5px.
+o	El color de fondo cambiará a #900. */
+
+
+

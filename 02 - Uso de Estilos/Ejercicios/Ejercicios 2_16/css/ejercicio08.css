@@ -1,0 +1,30 @@
+.menu {
+    margin: 0px;
+    padding: 0px;
+    width: 180px;
+    border: 1px lightgrey solid;
+    list-style-type: none;   
+}
+
+.menu li {
+    border: 1px lightgrey solid;
+    background-color: lightcyan;
+}
+
+.menu li a {
+    display: block;
+    background-image: url(../imagenes/flecha_inactiva.png);
+    background-repeat: no-repeat;
+    background-position: 3px center;
+    color: lightgrey;
+    background-color: lightcyan;
+    padding: .2em 0 .2em 1.5em;
+    text-decoration: none;
+}
+
+li a:hover {
+    cursor: pointer;
+    background-image: url(../imagenes/flecha_activa.png);
+    background-color:cyan;
+    color:white;
+}
