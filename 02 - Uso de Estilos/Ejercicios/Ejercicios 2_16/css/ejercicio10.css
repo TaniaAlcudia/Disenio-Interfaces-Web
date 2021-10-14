@@ -25,13 +25,9 @@
 .menu li a:hover {
     background-image: url(../imagenes/vert-one_arrow.gif);
     background-repeat: no-repeat;
-    /* background-position: left; */
+    background-position: .5px center;
     background-color: #900;
 }
-
-/* •	Cuando se pasa el ratón por encima de cada elemento del menú:
-o	Se debe mostrar la imagen (vert-one_arrow.gif) como fondo. Aparecerá a la izquierda separada del margen 0.5px.
-o	El color de fondo cambiará a #900. */
 
 
 

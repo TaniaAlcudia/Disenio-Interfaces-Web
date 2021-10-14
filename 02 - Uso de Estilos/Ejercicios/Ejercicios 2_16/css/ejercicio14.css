@@ -1,0 +1,49 @@
+body {
+    background-color: #366;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li:hover>a{
+    background-color: #6CC;
+    color:#000;
+}
+
+a {
+    display: block;
+    background-color: #399;
+    color: white;
+    border: 1px white solid;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nivel1, .nivel2 {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nivel1 {
+    display: flex;  
+}
+
+.nivel1>li {
+    width: 162px;
+    margin: 0px 2px;
+}
+
+.nivel li li {
+    display: inline-block;
+}
+
+.nivel1 li:hover>ul {
+    visibility: visible;
+}
+
+.nivel2 {
+    visibility: hidden;    
+}
+
+
+

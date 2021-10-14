@@ -1,0 +1,41 @@
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+}
+
+.menu li {
+    display: grid;
+    grid-template-rows: 2;
+    margin: 25px;    
+}
+
+.menu li a, .menu li span {
+    font-family: Verdana, Georgia, 'Times New Roman';
+    font-weight: bold;
+    color: #953434;
+}
+
+.menu li a {
+    border-top: 4px #edcbcb solid;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.menu li span {
+    font-size: 9px;
+    line-height: 15px;
+    visibility: hidden;
+}
+
+.menu li:hover span, .menu li:hover a {
+    border-color: #953434;
+    color: #b17878;
+    visibility: visible;
+}
+
+.menu li a:visited {
+    border-top: 4px #953434 solid;
+}
+
+
